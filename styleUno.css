@@ -1,0 +1,123 @@
+body{
+   margin:0;
+}
+.m1{
+    background-color: white;
+    width: 30px;
+    height: 6px;
+    margin:3px;
+    border-radius: 10%;
+}
+.Button{
+    width: 30px;
+}
+.menuButton{
+    width: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height:15vh;
+    width: 100vw;
+    color:red;
+    background-color: black;
+    display:flex;
+}
+.headerBox{
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+}
+.headerBox h1{
+    padding:2%;
+    margin:0;
+    font-weight: bold;
+}
+.main{
+    height: 85vh;
+    width: 100vw;
+    display:flex;
+}
+#menu.toggle{
+    left:0px;
+}
+#menu.toggle + .Overlay{
+    display:block;
+}
+#menu:hover{
+    left:0px;
+}
+/*#menu:hover + .Overlay{
+    display:block;
+}*/
+#menu{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    color:red;
+    transition:0.5s;
+    left:-135px;
+    background-color: black;
+    font-weight: bold;
+    z-index: 1;
+}
+.Overlay{
+    height: 100%;
+    width: 100%;
+    display:none;
+    position: fixed;
+    transition: 1s;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.mainBox{
+    color:rgb(197, 173, 127);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 0;
+}
+#newMelody
+{
+    padding: 5px;
+    border-radius: 5px;
+margin: 0 auto;
+color: white;
+    background-color: rgb(41, 40, 40);
+}
+#guess{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+        background-color: rgb(41, 40, 40);
+
+}
+#link,#nazwa,#wykonawca,#rok
+{
+    margin-top: 30px;
+    color: lightgray;
+border-radius: 5px;
+}
+#end,#single,#multi
+{
+    color: black;
+    background-color: wheat;
+    border-color: rgb(187, 168, 133);
+    border-radius: 5px;
+}
+table, th, td {
+    display: fixed;
+    padding: 5px;
+    margin-top: 200px;
+    height: 60%;
+    width: 50%;
+    margin: 0 auto  ;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }

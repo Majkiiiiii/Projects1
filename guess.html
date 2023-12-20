@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styleUno.css" rel="stylesheet">
+    <title>Dodawanie Piosenki</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="menuButton">
+            <div class="m1" onclick="displayMenu()"></div>
+            <div class="m1" onclick="displayMenu()"></div>
+            <div class="m1" onclick="displayMenu()"></div>
+    </div>
+    <div class="headerBox">
+        <h1>Add The Song</h1>
+    </div>
+
+</div>
+<div class="main">
+    <div id="menu"></div> 
+       
+    <div class="Overlay" onclick="displayMenu()"> 
+        <a href="main.html" target="_blank"><input type="button" id="newMelody" name="newMelody"  value="Strona Główna"></a>
+        <br>
+        <a href="add.html" target="_blank"><input type="button" id="guess" name="guess"  value="Dodawanie piosenki"></a>
+    </div>
+    
+    <div class="mainBox">
+     <h1>Zgadywanie Piosenki</h1>
+     <p>wybierz tryb gry</p>
+     <br>
+     <a href="single.html" ><input type="button" id="newMelody" name="newMelody"  value="Singleplayer"></a>
+     <a href="multi.html"><input type="button" id="newMelody" name="newMelody"  value="Multiplayer"></a>
+    
+    </div>   
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>
